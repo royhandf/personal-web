@@ -19,7 +19,7 @@ const projects = [
   {
     num: "01",
     category: "fullstack",
-    title: "Portfolio",
+    title: "E-Commerce Single Store",
     description: "Persada Packaging merupakan perusahaan yang bergerak di bidang importir packaging. Website ini bertujuan untuk memperkenalkan perusahaan dan produk-produk yang dijual oleh Persada Packaging, seperti botol serum, pot cream, lipmatte, dan sebagainya.",
     stack: [{ name: "CodeIgniter" },  {name: "Bootstrap"}, {name: "JQuery"}, {name: "MySQL"}],
     image: "/assets/work/thumb1.png",
@@ -29,8 +29,8 @@ const projects = [
   {
     num: "02",
     category: "frontend",
-    title: "Portfolio",
-    description: "Parta Notebook merupakan webParta Notebook adalah sebuah situs web yang berfokus pada penjualan berbagai macam hardware komputer. Di Parta Notebook, Anda dapat menemukan berbagai jenis komponen seperti laptop, desktop, motherboard, prosesor, RAM, dan sebagainya.",
+    title: "E-Commerce Single Store",  
+    description: "Parta Notebook adalah sebuah situs web yang berfokus pada penjualan berbagai macam hardware komputer. Di Parta Notebook, Anda dapat menemukan berbagai jenis komponen seperti laptop, desktop, motherboard, prosesor, RAM, dan sebagainya.",
     stack: [{ name: "CodeIgniter" },  {name: "Bootstrap"}, {name: "JQuery"}, {name: "MySQL"}],
     image: "/assets/work/thumb2.png",
     live: "",

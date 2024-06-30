@@ -29,7 +29,7 @@ const info = [
   {
     icon: <FaMapMarkedAlt />,
     title: "Address",
-    description: "Pasuruan, East Java, Indonesia 67139",
+    description: "East Java, Indonesia",
   },
 ];
 

@@ -40,7 +40,7 @@ const about = {
     },
     {
       fieldName: "Interests",
-      fieldValue: "Traveling & Gaming",
+      fieldValue: "Sports & Game",
     },
     {
       fieldName: "Phone",
@@ -57,7 +57,7 @@ const about = {
     },
     {
       fieldName: "Location",
-      fieldValue: "Malang, Indonesia",
+      fieldValue: "East Java, Indonesia",
     },
   ],
 };
@@ -67,7 +67,7 @@ const experience = {
   title: "My Experience",
   items: [
     {
-      position: "Web Developer",
+      position: "Frontend Developer",
       company: "Intermedia Technology Corp.",
       duration: "Jun 2020 - Sept 2020",
     },
