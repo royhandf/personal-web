@@ -11,13 +11,14 @@ import {
   FaLaravel,
   FaDatabase,
   FaGitAlt,
-  FaFigma,
 } from "react-icons/fa";
 import {
   SiTailwindcss,
   SiNextdotjs,
   SiFlutter,
-  SiFirebase,
+  SiFlask,
+  SiJquery,
+  SiExpress,
 } from "react-icons/si";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
@@ -39,25 +40,16 @@ const about = {
       fieldValue: "Royhan Daffa",
     },
     {
-      fieldName: "Interests",
-      fieldValue: "Sports & Game",
-    },
-    {
       fieldName: "Phone",
       fieldValue: "(+62) 8953 9600 2259",
-    },
-
-    {
-      fieldName: "Email",
-      fieldValue: "royhandf@gmail.com",
     },
     {
       fieldName: "Freelance",
       fieldValue: "Available",
     },
     {
-      fieldName: "Location",
-      fieldValue: "East Java, Indonesia",
+      fieldName: "Email",
+      fieldValue: "royhandf@gmail.com",
     },
   ],
 };
@@ -67,14 +59,14 @@ const experience = {
   title: "My Experience",
   items: [
     {
-      position: "Frontend Developer",
+      position: "Game Developer",
       company: "Intermedia Technology Corp.",
-      duration: "Jun 2020 - Sept 2020",
+      duration: "Jul 2023 - Sept 2023",
     },
     {
       position: "Full Stack Developer",
       company: "Freelance",
-      duration: "2020 - Present",
+      duration: "2023 - Present",
     },
   ],
 };
@@ -101,15 +93,19 @@ const skills = {
   skillList: [
     {
       icon: <FaHtml5 />,
-      name: "HTML 5",
+      name: "HTML",
     },
     {
       icon: <FaCss3 />,
-      name: "CSS 3",
+      name: "CSS",
     },
     {
       icon: <FaJs />,
       name: "JavaScript",
+    },
+    {
+      icon: <SiJquery />,
+      name: "JQuery",
     },
     {
       icon: <FaBootstrap />,
@@ -128,6 +124,10 @@ const skills = {
       name: "Node.js",
     },
     {
+      icon: <SiExpress />,
+      name: "Express.js",
+    },
+    {
       icon: <SiNextdotjs />,
       name: "Next.js",
     },
@@ -140,24 +140,20 @@ const skills = {
       name: "Laravel",
     },
     {
+      icon: <SiFlask />,
+      name: "Flask",
+    },
+    {
       icon: <SiFlutter />,
       name: "Flutter",
     },
     {
       icon: <FaDatabase />,
-      name: "SQL",
+      name: "Database",
     },
     {
       icon: <FaGitAlt />,
       name: "Git",
-    },
-    {
-      icon: <SiFirebase />,
-      name: "Firebase",
-    },
-    {
-      icon: <FaFigma />,
-      name: "Figma",
     },
   ],
 };
@@ -247,7 +243,7 @@ const Resume = () => {
                 <div className="flex flex-col gap-[30px] text-center xl:text-left">
                   <h3 className="text-4xl font-bold">{skills.title}</h3>
                 </div>
-                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
+                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px] mb-6">
                   {skills.skillList.map((skill, index) => {
                     return (
                       <li key={index}>

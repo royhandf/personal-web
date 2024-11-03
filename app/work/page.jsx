@@ -18,20 +18,66 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "fullstack",
-    title: "E-Commerce Single Store",
-    description: "Persada Packaging merupakan perusahaan yang bergerak di bidang importir packaging. Website ini bertujuan untuk memperkenalkan perusahaan dan produk-produk yang dijual oleh Persada Packaging, seperti botol serum, pot cream, lipmatte, dan sebagainya.",
-    stack: [{ name: "CodeIgniter" },  {name: "Bootstrap"}, {name: "JQuery"}, {name: "MySQL"}],
-    image: "/assets/work/thumb1.png",
-    live: "https://persadapackaging.com/",
+    category: "frontend",
+    title: "BUMDes Desa Sumberpucung",
+    description:
+      "BUMDes Desa Sumberpucung merupakan sebuah situs web yang dibuat untuk memperkenalkan BUMDes Desa Sumberpucung, Malang kepada masyarakat luas, serta memperkenalkan produk-produk yang dihasilkan oleh BUMDes Desa Sumberpucung, seperti kerajinan tangan, makanan, dan minuman khas Desa Sumberpucung.",
+    stack: [
+      { name: "Laravel" },
+      { name: "Bootstrap" },
+      { name: "JavaScript" },
+      { name: "JQuery" },
+      { name: "MySQL" },
+    ],
+    image: "/assets/work/thumb3.png",
+    live: "https://bumdes.dzrmhmd.com/home",
     github: "",
   },
   {
     num: "02",
     category: "frontend",
-    title: "E-Commerce Single Store",  
-    description: "Parta Notebook adalah sebuah situs web yang berfokus pada penjualan berbagai macam hardware komputer. Di Parta Notebook, Anda dapat menemukan berbagai jenis komponen seperti laptop, desktop, motherboard, prosesor, RAM, dan sebagainya.",
-    stack: [{ name: "CodeIgniter" },  {name: "Bootstrap"}, {name: "JQuery"}, {name: "MySQL"}],
+    title: "Remidial Test System",
+    description:
+      "Remedial Test System adalah situs web yang dibuat untuk memudahkan para siswa SMAN 1 Sumberpucung dalam mengikuti test osn dan ujian remedial. Dengan adanya situs web ini, para siswa dapat mengikuti test osn dan ujian remedial secara online. Selain itu, para siswa juga dapat melihat hasil test osn dan ujian remedial yang telah diikuti.",
+    stack: [
+      { name: "Laravel" },
+      { name: "Bootstrap" },
+      { name: "JavaScript" },
+      { name: "JQuery" },
+      { name: "MySQL" },
+    ],
+    image: "/assets/work/thumb4.png",
+    live: "https://remedial.dzrmhmd.com/exam",
+    github: "",
+  },
+  {
+    num: "03",
+    category: "frontend",
+    title: "E-Commerce Single Store",
+    description:
+      "Persada Packaging merupakan perusahaan yang bergerak di bidang importir packaging. Website ini bertujuan untuk memperkenalkan perusahaan dan produk-produk yang dijual oleh Persada Packaging, seperti botol serum, pot cream, lipmatte, dan sebagainya.",
+    stack: [
+      { name: "CodeIgniter" },
+      { name: "Bootstrap" },
+      { name: "JQuery" },
+      { name: "MySQL" },
+    ],
+    image: "/assets/work/thumb1.png",
+    live: "https://persadapackaging.com/",
+    github: "",
+  },
+  {
+    num: "04",
+    category: "frontend",
+    title: "E-Commerce Single Store",
+    description:
+      "Parta Notebook adalah sebuah situs web yang berfokus pada penjualan berbagai macam hardware komputer. Di Parta Notebook, Anda dapat menemukan berbagai jenis komponen seperti laptop, desktop, motherboard, prosesor, RAM, dan sebagainya.",
+    stack: [
+      { name: "CodeIgniter" },
+      { name: "Bootstrap" },
+      { name: "JQuery" },
+      { name: "MySQL" },
+    ],
     image: "/assets/work/thumb2.png",
     live: "",
     github: "",
@@ -120,7 +166,7 @@ const Work = () => {
                         src={project.image}
                         alt={project.title}
                         fill
-                        className="object-cover"
+                        className="object-cover rounded-md"
                       />
                     </div>
                   </div>

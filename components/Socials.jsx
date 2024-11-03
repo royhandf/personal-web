@@ -3,7 +3,10 @@ import { FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 
 const socials = [
   { icon: <FaGithub />, path: "https://github.com/royhandf" },
-  { icon: <FaLinkedinIn />, path: "" },
+  {
+    icon: <FaLinkedinIn />,
+    path: "https://www.linkedin.com/in/royhandaffa14/",
+  },
   { icon: <FaInstagram />, path: "https://www.instagram.com/royhandf_/" },
 ];
 
