@@ -33,7 +33,7 @@ import { motion } from "framer-motion";
 const about = {
   title: "About Me",
   description:
-    "I am a Web Developer. I have worked on various projects and have experience in web development. I am passionate about learning new technologies and always looking for opportunities to improve my skills. I am a quick learner and a team player.",
+    "I am a Web Developer. I have worked on various projects and have experience in web development. I am a person who can work well in a team and individually. I am passionate about learning new technologies and always looking for opportunities to improve my skills",
   info: [
     {
       fieldName: "Name",
