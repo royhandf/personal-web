@@ -33,7 +33,7 @@ import { motion } from "framer-motion";
 const about = {
   title: "About Me",
   description:
-    "I am a full stack developer. I have worked on various projects and have experience in web development and mobile app development. I am a learner and always eager to learn new technologies. I am a person who can work well in a team and individually. I am looking for a challenging role where I can use my skills and experience to contribute to the growth of the company.",
+    "I am a Web Developer. I have worked on various projects and have experience in web development. I am passionate about learning new technologies and always looking for opportunities to improve my skills. I am a quick learner and a team player.",
   info: [
     {
       fieldName: "Name",
@@ -64,7 +64,7 @@ const experience = {
       duration: "Jul 2023 - Sept 2023",
     },
     {
-      position: "Full Stack Developer",
+      position: "Web Developer",
       company: "Freelance",
       duration: "2023 - Present",
     },

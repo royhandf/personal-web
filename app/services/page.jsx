@@ -21,7 +21,7 @@ const services = [
   },
   {
     num: "03",
-    title: "Fullstack Development",
+    title: "Web Development",
     description:
       "Combining frontend and backend development skills to deliver comprehensive web solutions. Providing a cohesive and efficient development process from start to finish.",
     href: "",
